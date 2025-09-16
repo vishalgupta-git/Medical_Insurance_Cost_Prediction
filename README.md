@@ -9,10 +9,12 @@ A machine learning project that predicts medical insurance charges based on user
 This project evaluates multiple regression models to predict medical insurance charges for individuals. The most accurate model is deployed using a simple and intuitive Streamlit UI.
 
 - 📓 Training & analysis done in `notebook.ipynb`
-- 🧠 Best model (`Random Forest`) saved as `model.pkl`
+- 🧠 Best model (`Gradient Boosting Regressor`) saved as `model.pkl`
 - 📊 Preprocessing/scaling handled (if applicable)
 - 🌐 Web app built in `app.py`
 - 🎨 Visual branding/image: `insurance.png`
+- 🧮 Optional BMI Calculator in the app's sidebar for user convenience
+
 
 ---
 
@@ -24,7 +26,7 @@ This project evaluates multiple regression models to predict medical insurance c
 git clone https://github.com/your-username/insurance-charge-predictor.git
 cd insurance-charge-predictor
 ```
-### 2.Install Dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -73,6 +75,8 @@ Evaluated algorithms include:
 
 - Streamlit – for the interactive frontend  
 - Joblib / Pickle – for model and scaler serialization  
+- Built-in BMI Calculator in the Streamlit sidebar
+
 
 ### 🧪 Development Tools
 
@@ -89,15 +93,23 @@ Evaluated algorithms include:
 
 Once the app is running:
 
-1. Enter the client's details:
+1. (Optional) Use the **BMI Calculator** in the sidebar:
+   - Enter your **Weight (kg)** and **Height (m)**.
+   - Your **BMI** will be automatically calculated.
+   - Tick the checkbox to use the calculated BMI in prediction.
+
+2. Enter the client's details:
    - Age  
    - Sex  
-   - BMI  
+   - BMI (manual or calculated)  
    - Number of children  
    - Smoker status (yes/no)  
    - Region  
-2. Click the **Predict Insurance Charges** button.
-3. The app will display the estimated medical insurance cost using the trained **Random Forest** model.
+
+3. Click the **Predict Insurance Charges** button.
+
+4. The app will display the estimated medical insurance cost using the trained **Gradient Boosting Regressor** model.
+
 
 ---
 
