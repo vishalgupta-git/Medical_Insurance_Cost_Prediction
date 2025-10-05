@@ -128,8 +128,7 @@ The training pipeline in `notebook.ipynb` includes:
 
 ## 🖼️ Streamlit UI Preview
 
-<!-- Uncomment and replace the link below if deployed -->
-<!-- Visit the live app: [https://your-insurance-app.streamlit.app/] -->
+Visit the live app: [https://grade-prediction1.streamlit.app/]
 
 ![App Screenshot](img/ui.png)
 
