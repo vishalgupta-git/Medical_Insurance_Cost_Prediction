@@ -23,8 +23,9 @@ This project evaluates multiple regression models to predict medical insurance c
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/insurance-charge-predictor.git
-cd insurance-charge-predictor
+git clone https://github.com/vishalgupta-git/Medical_Insurance_Cost_Prediction
+cd Medical_Insurance_Cost_Prediction
+
 ```
 ### 2. Install Dependencies
 ```bash
@@ -128,7 +129,7 @@ The training pipeline in `notebook.ipynb` includes:
 
 ## 🖼️ Streamlit UI Preview
 
-Visit the live app: [https://grade-prediction1.streamlit.app/]
+Visit the live app: [https://medicalcost-prediction.streamlit.app/]
 
 ![App Screenshot](img/ui.png)
 
